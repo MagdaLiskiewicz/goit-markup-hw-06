@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Effective Solutions for Your Business" />
-    <title>homework_03</title>
+    <title>homework_06</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,12 +15,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-
-    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <!-- <link href="./css/style.css" rel="stylesheet" /> -->
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="header-wrap container">
         <nav class="display-header">
           <a class="logo" href="./index.html"
@@ -47,22 +46,22 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <main>
-      <section class="background section">
+      <!-- <section class="background section">
         <div class="container">
           <h1 class="title">Effective Solutions<br />for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">/</h2>
           <ul class="goals-column">
             <li class="goal">
-              <div class="icons-container">
+              <div class="icons-container icons-hidden">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
@@ -74,7 +73,7 @@
               </p>
             </li>
             <li class="goal">
-              <div class="icons-container">
+              <div class="icons-container icons-hidden">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
@@ -86,7 +85,7 @@
               </p>
             </li>
             <li class="goal">
-              <div class="icons-container">
+              <div class="icons-container icons-hidden">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
@@ -98,7 +97,7 @@
               </p>
             </li>
             <li class="goal">
-              <div class="icons-container">
+              <div class="icons-container icons-hidden">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
@@ -119,7 +118,11 @@
           <ul class="person-list">
             <li class="card">
               <img
-                src="./images/Mark_Guerrero.jpg"
+                srcset="
+                  ./images/mobile/Mark_Guerrero.jpg    1x,
+                  ./images/mobile/Mark_Guerrero@2x.jpg 2x
+                "
+                src="./images/mobile/Mark_Guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -161,7 +164,11 @@
             </li>
             <li class="card">
               <img
-                src="./images/Tom_Ford.jpg"
+                srcset="
+                  ./images/mobile/Tom_Ford.jpg    1x,
+                  ./images/mobile/Tom_Ford@2x.jpg 2x
+                "
+                src="./images/mobile/Tom_Ford.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -203,7 +210,11 @@
             </li>
             <li class="card">
               <img
-                src="./images/Camila_Garcia.jpg"
+                srcset="
+                  ./images/mobile/Camila_Garcia.jpg    1x,
+                  ./images/mobile/Camila_Garcia@2x.jpg 2x
+                "
+                src="./images/mobile/Camila_Garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -245,7 +256,11 @@
             </li>
             <li class="card">
               <img
-                src="./images/Daniel_Wilson.jpg"
+                srcset="
+                  ./images/mobile/Daniel_Wilson.jpg    1x,
+                  ./images/mobile/Daniel_Wilson@2x.jpg 2x
+                "
+                src="./images/mobile/Daniel_Wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -296,10 +311,14 @@
             <li class="portfolio-card">
               <div class="trans-box">
                 <img
-                  src="./images/Banking_App.jpg"
+                  srcset="
+                    ./images/mobile/Banking_App.jpg    1x,
+                    ./images/mobile/Banking_App@2x.jpg 2x
+                  "
+                  src="./images/mobile/Banking_App.jpg"
                   alt="Banking App"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
 
                 <p class="overlay">
@@ -317,10 +336,14 @@
             <li class="portfolio-card">
               <div class="trans-box">
                 <img
-                  src="./images/Cashless_Payment.jpg"
+                  srcset="
+                    ./images/mobile/Meditation_App.jpg    1x,
+                    ./images/mobile/Meditation_App@2x.jpg 2x
+                  "
+                  src="./images/mobile/Meditation_App.jpg"
                   alt="Cashless Payment"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
 
                 <p class="overlay">
@@ -340,8 +363,8 @@
                 <img
                   src="./images/Meditation_App.jpg"
                   alt="Computer and phone"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -360,8 +383,8 @@
                 <img
                   src="./images/Taxi_Service.jpg"
                   alt="Car interior"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -380,8 +403,8 @@
                 <img
                   src="./images/Screen_Illustrations.jpg"
                   alt="Phone screen illustrations"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -400,8 +423,8 @@
                 <img
                   src="./images/Online_Courses.jpg"
                   alt="Woman with phone"
-                  width="360"
-                  height="300"
+                  width="288"
+                  height="280"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -420,7 +443,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo">
           <a href="./index.html" class="logo"
@@ -485,11 +508,11 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- MODAL -->
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal">
         <button class="close" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -560,6 +583,6 @@
           <button class="send-btn" type="submit" name="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
