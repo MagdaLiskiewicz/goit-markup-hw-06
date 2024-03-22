@@ -37,8 +37,7 @@ p {
   padding: 0 16px;
 }
 
-.visually-hidden,
-.icons-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -49,6 +48,10 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.icons-container {
+  display: none;
 }
 
 .goals-column {
@@ -243,7 +246,6 @@ p {
 }
 
 .footer-logo {
-  /* margin-bottom: 72px; */
   text-align: center;
 }
 
@@ -276,7 +278,6 @@ p {
 }
 
 .container-social-link {
-  /* display: inline-block; */
   text-align: center;
 }
 
@@ -292,7 +293,6 @@ p {
   display: flex;
   justify-content: center;
   gap: 16px;
-  /* margin-bottom: 72px; */
 }
 
 .socials-link-footer {
