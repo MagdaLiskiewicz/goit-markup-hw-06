@@ -247,7 +247,7 @@ p {
 .background {
   padding: 72px 0;
   text-align: center;
-  max-width: 320px;
+  max-width: 767px;
   width: 100%;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
@@ -936,7 +936,7 @@ p {
   .background {
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 768px;
+    max-width: 1157px;
     height: 436px;
 
     background-image: linear-gradient(
