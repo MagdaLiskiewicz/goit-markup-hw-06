@@ -45,17 +45,20 @@
             </li>
           </ul>
         </address>
-        <button class="menu-icon-mob">
-          <svg class="icon-mob" width="24" height="24">
-            <use href="./images/icons.svg#icon-Group"></use>
-          </svg>
-        </button>
+
+        <div class="hamburger">
+          <button class="menu-icon-mob" id="hambtn">
+            <svg class="icon-mob" width="24" height="24">
+              <use href="./images/icons.svg#icon-Group"></use>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <!-------MENU MOBILE------->
 
-      <!-- <div class="menu-mobile is-open-menu">
-        <button class="close" type="button">
+      <div class="menu-mobile" id="mobilemenu">
+        <button class="close" type="button" id="mobilebtn">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -116,14 +119,16 @@
             </li>
           </ul>
         </div>
-      </div> -->
+      </div>
     </header>
 
     <main>
       <section class="background section">
         <div class="container">
           <h1 class="title">Effective Solutions<br />for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" id="topbtn">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -712,9 +717,9 @@
 
     <!-- MODAL -->
 
-    <!-- <div class="backdrop is-open">
+    <div class="backdrop is-open" id="modal">
       <div class="modal">
-        <button class="close" type="button">
+        <button class="close" type="button" id="modalbtn">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -783,6 +788,9 @@
           <button class="send-btn" type="submit" name="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="./modal.js"></script>
   </body>
 </html>
